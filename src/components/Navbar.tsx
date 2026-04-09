@@ -7,6 +7,7 @@ const NavLinks = [
   { href: "#about", label: "About" },
   { href: "#upload", label: "Analyze" },
   { href: "#results", label: "Results" },
+  { href: "#compatibility", label: "Compatibility Checker" },
   { href: "#explainability", label: "Explainability" },
 ];
 
