@@ -141,6 +141,7 @@ export const HeroSection = () => {
             >
               <div className="w-2 h-2 rounded-full bg-warm-green animate-pulse" />
               <span className="text-muted-foreground font-medium">Pharmacogenomics × AI</span>
+
             </motion.div>
 
             {/* Title */}

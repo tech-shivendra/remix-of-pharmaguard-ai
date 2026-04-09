@@ -27,13 +27,13 @@ export const LoadingScreen = ({ isLoading }: LoadingScreenProps) => {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            {/* Spinning logo */}
+            {/* Logo */}
             <motion.img
               src={generxLogo}
               alt="GeneRx logo"
               className="w-20 h-20 md:w-28 md:h-28 rounded-2xl"
-              animate={{ rotate: 360 }}
-              transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             />
 
             {/* Brand text - stacked like reference */}
